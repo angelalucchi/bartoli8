@@ -3,11 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Il mio sito</title>
+<title>Bartoli 8</title>
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </head>
 <body>
-<h1>Ciao, benvenuto nel mio sito!</h1>
-<p>Questo è un sito statico gratuito.</p>
+<h1>Ciao, qui potrai vedere l'appartamento 'Bartoli 8'</p>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 19</div>
+  <img src="img/Cucina.jpeg" style="width:100%">
+  <div class="text">Cucina</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 19</div>
+  <img src="img/Cucina2.jpeg" style="width:100%">
+  <div class="text">Cucina</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 19</div>
+  <img src="img/Lavatrice.jpeg" style="width:100%">
+  <div class="text">Lavatrice</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 19</div>
+  <img src="img/Lavatrice2.jpeg" style="width:100%">
+  <div class="text">Lavatrice</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
 </body>
 </html>
